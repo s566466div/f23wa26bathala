@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
   const responseString = `${Math.exp.name} applied to ${x} is ${result}`;
 
   res.send(responseString);
-  res.render('bonus', { title: 'Express' });
+  res.render('computation', { title: 'computation' });
 });
 
 module.exports = router;
